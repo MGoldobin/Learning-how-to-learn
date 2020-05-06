@@ -3,31 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Learning how to learn</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo__place_header" src="images/logo_place_header.png"
+      <img class="header__logo header__logo_place_header" src="images/logo_place_header.png"
         alt="Yandex">
       <h1 class="header__title">Learning how to learn</h1>
-      <div class="header__subtitle">
-        <p>The most effective, cutting-edge learning techniques 
-        that you can apply to your daily life.</p>
+      <p class="header__subtitle">
+        The most effective, cutting-edge learning techniques 
+        that you can apply to your daily life.</br>
         <a href="#" class="header__link">Learn more	→</a>
-      </div>
-      <img class="header__main-illustration" 
-        src="./images/header-image.png" alt="">
+      </p>
+      <div class="header__main-illustration"></div>
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <p class="two-columns__brief">
+          <h3 class="two-columns__brief">
             The main problem with education
-          </p>
+          </h3>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
               Whether it's at school or university,  
@@ -62,151 +61,174 @@
       </section>
 
       <section class="digits">
-        <h1 class="section-title horizontally_center">Facts and figures</h1>
-        <h2 class="section-subtitle horizontally_center">On learning and the brain</h2>
-        <div class="digits__table table">
-          <div class="table__cell">
-            <h3 class="table__heading">86 billion</h3>
-            <p class="table__text">
-              The number of neurons in the human brain
-            </p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">2.1 billion</h3>
-            <p class="table__text">
-              The number of adults with low reading proficiency
-            </p>
-            <p class="table__text-author">World Bank, 2017</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">1,000 terabytes</h3>
-            <p class="table__text">
-              Human information storage capacity
-            </p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">500 trillion</h3>
-            <p class="table__text">
-              The number of nerve synapses 
-              responsible for learning in an adult human
-            </p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">420 million</h3>
-            <p class="table__text">
-              The number of adults under 25 
-              with insufficient education for finding employment
-            </p>
-            <p class="table__text-author">World Bank, 2017</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">17 - 20 years old</h3>
-            <p class="table__text">
-              Peak learning age
-            </p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">1885</h3>
-            <p class="table__text">
-              Development of the forgetting curve
-            </p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">1897</h3>
-            <p class="table__text">
-              Publication of Ivan Pavlov's research 
-              on classical conditioning
-            </p>
-          </div>
+        <h2 class="section-title">Facts and figures</h2>
+        <p class="section-subtitle">On learning and the brain</p>
+        <div class="table">
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">86 billion</p>
+            </li>
+            <li>
+              <p class="table__text">The number of neurons in the human brain</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">2.1 billion</p>
+            </li>
+            <li>
+              <p class="table__text">The number of adults with low reading proficiency</p>
+            </li>
+            <li>
+              <p class="table__text">World Bank, 2017</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">1,000 terabytes</p>
+            </li>
+            <li>
+              <p class="table__text">Human information storage capacity</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">500 trillion</p>
+            </li>
+            <li>
+              <p class="table__text">The number of nerve synapses responsible for learning in an adult human</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">420 million</p>
+            </li>
+            <li>
+              <p class="table__text">
+                The number of adults under 25 with insufficient 
+                education for finding employment
+              </p>
+            </li>
+            <li>
+              <p class="table__text">World Bank, 2017</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">17 - 20 years old</p>
+            </li>
+            <li>
+              <p class="table__text">Peak learning age</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">1885</p>
+            </li>
+            <li>
+              <p class="table__text">Development of the forgetting curve</p>
+            </li>
+          </ul>
+          <ul class="table__cell">
+            <li>
+              <p class="table__heading">1897</p>
+            </li>
+            <li>
+              <p class="table__text">
+                Publication of Ivan Pavlov's research 
+                on classical conditioning
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="feynman">
-        <h1 class="feynman__title">The Feynman Technique</h1>
+        <h2 class="feynman__title">The Feynman Technique</h2>
         <p class="feynman__subtitle">Learn without forgetting.</p>
         <a href="#" class="feynman__link">More →</a>
-        <img src="./images/feynman.png" alt="Feynman" class="feynman_image">
+        <div class="feynman_image"></div>
       </section>
 
       <section class="kaufman">
-        <h1 class="section-title_theme_dark horizontally_center">
+        <h1 class="section-title section-title_theme_dark">
           Ten principles of rapid skill acquisition
         </h1>
-        <p class="section-subtitle_theme_dark horizontally_center">
+        <p class="section-subtitle section-subtitle_theme_dark">
           by Josh Kaufman
         </p>
         <div class="table table_theme_dark">
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">1</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">1</h3>
+            <p class="table__text table__text_theme_dark">
               Choose a lovable project.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">2</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">2</h3>
+            <p class="table__text table__text_theme_dark">
               Focus your energy on one skill at a time.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">3</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">3</h3>
+            <p class="table__text table__text_theme_dark">
               Define your target performance level.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">4</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">4</h3>
+            <p class="table__text table__text_theme_dark">
               Deconstruct the skill into sub-skills.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">5</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">5</h3>
+            <p class="table__text table__text_theme_dark">
               Obtain critical tools.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">6</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">6</h3>
+            <p class="table__text table__text_theme_dark">
               Eliminate barriers to practice.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">7</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">7</h3>
+            <p class="table__text table__text_theme_dark">
               Make dedicated time for practice.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">8</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">8</h3>
+            <p class="table__text table__text_theme_dark">
               Create fast feedback loops.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">9</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">9</h3>
+            <p class="table__text table__text_theme_dark">
               Practice by the clock in short bursts.
             </p>
           </div>
-          <div class="table__cell_theme_dark">
-            <h3 class="table__heading_theme_dark">10</h3>
-            <p class="table__text_theme_dark">
+          <div class="table__cell table__cell_theme_dark">
+            <h3 class="table__heading table__heading_theme_dark">10</h3>
+            <p class="table__text table__text_theme_dark">
               Emphasize quantity and speed.
             </p>
           </div>
         </div>
-        <img src="./images/kaufman-triangle.svg" alt="triangle" class="kaufman__triangle">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <img src="images/logo_place_footer.png" alt="Yandex" class="logo logo__place_footer">
-          <p class="footer_author">© 2020. Mike</p>
+        <div class="footer__column footer__column_content_copyright">
+          <img src="images/logo_place_footer.png" alt="Yandex" class="logo logo_place_footer">
+          <p class="footer__author">© 2020. Mike</p>
         </div>
-        <div class="footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">About Practicum by Yandex </h4>
           <ul class="footer__column-links">
             <li>Home page</li>
@@ -214,19 +236,19 @@
             <li>Mentors</li>
           </ul>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Social media</h4>
           <ul class="footer__column-links">
             <li>
               <a class="footer__link" href="https://www.facebook.com/YPracticum/">
                 <img src="images/facebook_color_white.svg" alt="facebook">
-                <p>Facebook</p>
+                <p class="footer__link_name">Facebook</p>
               </a>
             </li>
             <li>
               <a class="footer__link" href="https://www.instagram.com/yndx.practicum/">
                 <img src="images/instagram_color_white.svg" alt="instagram">
-                <p>Instagram</p>
+                <p class="footer__link_name">Instagram</p>
               </a>
             </li>
           </ul>
