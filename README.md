@@ -12,7 +12,7 @@ Site made using:
 
 Future
 ------
-I will: 
+ToDo: 
 * add my your favorite educational videos 
 * ~~check the code for cross-compatibility using [this site](https://caniuse.com/) and adding all the necessary vendor prefixes using [this site](https://autoprefixer.github.io/ru/)~~ 
 * make all references work
