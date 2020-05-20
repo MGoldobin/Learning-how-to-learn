@@ -4,8 +4,12 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   z-index: 2;
   position: relative;

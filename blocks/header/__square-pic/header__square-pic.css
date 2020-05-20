@@ -5,5 +5,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+          transform: rotate(-15deg);
 }
