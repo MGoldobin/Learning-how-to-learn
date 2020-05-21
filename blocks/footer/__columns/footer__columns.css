@@ -1,18 +1,11 @@
-@import url(./_content/footer__column_content_copyright.css);
-@import url(./_content/footer__column_content_info.css);
-@import url(./_content/footer__column_content_social.css);
+@import url('./_content/footer__column_content_copyright.css');
+@import url('./_content/footer__column_content_info.css');
+@import url('./_content/footer__column_content_social.css');
 
 .footer__columns {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   width: 90%;
   margin: 0 auto;
   padding: 60px 0 40px;

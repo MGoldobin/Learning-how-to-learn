@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Learning how to learn</title>
 </head>
 <body>
   <div class="page">
 
     <header class="header">
-      <img class="header__logo logo_place_header" src="./images/logo/logo_place_header.png"
+      <img class="logo_place_header" src="./images/logo/logo_place_header.png"
         alt="Yandex">
       <h1 class="header__title">Learning how to learn</h1>
       <p class="header__subtitle">
@@ -114,14 +113,10 @@
       <section class="video">
         <h2 class="section-title">TED talks</h2>
         <p class="section-subtitle">For lovers of procrastination</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" type="text/html" width="515" height="316"
-            src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen>
-          </iframe>
-          <iframe class="video__iframe" type="text/html" width="515" height="316"
-            src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen>
-          </iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe></li>
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe></li>
+        </ul>
       </section>
 
       <section class="oakley">
@@ -159,40 +154,40 @@
         <p class="section-subtitle">On learning and the brain</p>
           <ul class="table">
             <li class="table__cell">
-              <p class="table__heading">86 billion</p>
+              <h3 class="table__heading">86 billion</h3>
               <p class="table__text">The number of neurons in the human brain</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">2.1 billion</p>
+              <h3 class="table__heading">2.1 billion</h3>
               <p class="table__text">
                 The number of adults with low reading proficiency</p>
               <p class="table__text">World Bank, 2017</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">1,000 terabytes</p>
+              <h3 class="table__heading">1,000 terabytes</h3>
               <p class="table__text">Human information storage capacity</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">500 trillion</p>
+              <h3 class="table__heading">500 trillion</h3>
               <p class="table__text">The number of nerve synapses responsible for learning in an adult human</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">420 million</p>
+              <h3 class="table__heading">420 million</h3>
               <p class="table__text">
                 The number of adults under 25 with insufficient 
                 education for finding employment</p>
               <p class="table__text">World Bank, 2017</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">17 - 20 years old</p>
+              <h3 class="table__heading">17 - 20 years old</h3>
               <p class="table__text">Peak learning age</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">1885</p>
+              <h3 class="table__heading">1885</h3>
               <p class="table__text">Development of the forgetting curve</p>
             </li>
             <li class="table__cell">
-              <p class="table__heading">1897</p>
+              <h3 class="table__heading">1897</h3>
               <p class="table__text">
                 Publication of Ivan Pavlov's research 
                 on classical conditioning
@@ -205,13 +200,13 @@
         <div class="khan__container">
           <p class="khan__author">Salman Khan</p>
           <h2 class="khan__title">The One World Schoolhouse</h2>
-          <p class="khan__quote">
+          <blockquote class="khan__quote">
             Sal Khan's passion and innovation is transforming learning 
             for millions of students worldwide. The One World Schoolhouse 
             is a must-read for all who are committed to improving education 
             so students everywhere can gain the skills and knowledge 
             to be successful in school, careers and life.
-          </p>
+          </blockquote>
           <h3 class="khan__quote-author">George Lucas</h3>
           <p class="khan__quote-author-subline">Filmmaker</p>
           <div class="khan__book-container">
@@ -298,12 +293,12 @@
         <p class="section-subtitle">
           Further materials on learning techniques and hacks.
         </p>
-        <div class="resources__logo-zone">
-          <img src="./images/logo/resources-tedED.png" alt="tedED" class="resources__logo">
-          <img src="./images/logo/resources-Medium.png" alt="Medium" class="resources__logo">
-          <img src="./images/logo/resources-dezeen.png" alt="dezeen" class="resources__logo">
-          <img src="./images/logo/resources-goodreads.png" alt="goodreads" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><img src="./images/logo/resources-tedED.png" alt="tedED" class="resources__logo"></li>
+          <li><img src="./images/logo/resources-Medium.png" alt="Medium" class="resources__logo"></li>
+          <li><img src="./images/logo/resources-dezeen.png" alt="dezeen" class="resources__logo"></li>
+          <li><img src="./images/logo/resources-goodreads.png" alt="goodreads" class="resources__logo"></li>
+        </ul>
       </section>
     </main>
 
@@ -315,11 +310,11 @@
         </div>
         <div class="footer__column footer__column_content_info">
           <h4 class="footer__column-heading">About Practicum by Yandex </h4>
-          <nav class="footer__column-links">
-            <a href="#" class="footer__link opacity">Home page</a>
-            <a href="#" class="footer__link opacity">Concept</a>
-            <a href="#" class="footer__link opacity">Mentors</a>
-          </nav>
+          <ul class="footer__column-links">
+            <li><a href="#" class="footer__link opacity">Home page</a></li>
+            <li><a href="#" class="footer__link opacity">Concept</a></li>
+            <li><a href="#" class="footer__link opacity">Mentors</a></li>
+          </ul>
         </div>
         <div class="footer__column footer__column_content_social">
           <h4 class="footer__column-heading">Social media</h4>

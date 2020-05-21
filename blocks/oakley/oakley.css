@@ -1,12 +1,6 @@
-@import url(../description/two-columns/two-columns.css);
-
 .oakley {
 	padding-top: 160px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	justify-content: center;
 	background-color: #f2f2f2;
 }
