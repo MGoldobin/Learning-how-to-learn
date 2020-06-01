@@ -1,6 +1,6 @@
 Learning how to learn. 
 =====================
-Link:https://mgoldobin.github.io/first-project/
+Link: https://mgoldobin.github.io/first-project/
 
 About website
 -------------
