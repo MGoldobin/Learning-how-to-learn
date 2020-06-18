@@ -1,6 +1,6 @@
 Learning how to learn. 
 =====================
-Link: https://mgoldobin.github.io/first-project/ 
+Link: https://mgoldobin.github.io/Learning-how-to-learn/ 
 
 (design from Yandex.Practicum)
 
